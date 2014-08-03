@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.easyframe</groupId>
 	<artifactId>orm-tutorial</artifactId>
-	<version>1.9.1.RC1</version>
+	<version>1.9.5-SNAPSHOT</version>
 	<name>orm-tutorial</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -15,20 +15,20 @@
 		<dependency>
 			<groupId>org.easyframe</groupId>
 			<artifactId>common-core</artifactId>
-			<version>1.9.1.RC1</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-core-1.9.1.RC1.jar</systemPath> -->
+			<version>1.9.5-SNAPSHOT</version>
+			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-core-1.9.5-SNAPSHOT.jar</systemPath> -->
 		</dependency>
 		<dependency>
 			<groupId>org.easyframe</groupId>
 			<artifactId>common-orm</artifactId>
-			<version>1.9.1.RC1</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-1.9.1.RC1.jar</systemPath> -->
+			<version>1.9.5-SNAPSHOT</version>
+			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-1.9.5-SNAPSHOT.jar</systemPath> -->
 		</dependency>
 		<dependency>
 			<groupId>org.easyframe</groupId>
 			<artifactId>common-orm-routing</artifactId>
-			<version>1.9.1.RC1</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-routing-1.9.1.RC1.jar</systemPath> -->
+			<version>1.9.5-SNAPSHOT</version>
+			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-routing-1.9.5-SNAPSHOT.jar</systemPath> -->
 		</dependency>
 		<dependency>
 			<groupId>com.google.guava</groupId>
@@ -102,7 +102,7 @@
 
 		<plugins>
 			<!-- <plugin> <groupId>jef</groupId> <artifactId>jef-maven-plugin</artifactId> 
-				<version>1.9.1.RC1</version> <executions> <execution> <goals> <goal>enhance</goal> 
+				<version>1.9.5-SNAPSHOT</version> <executions> <execution> <goals> <goal>enhance</goal> 
 				</goals> </execution> </executions> </plugin> -->
 		</plugins>
 		<pluginManagement>
