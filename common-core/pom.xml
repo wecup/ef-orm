@@ -36,13 +36,22 @@
 			<version>14.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+
 		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>3.2.5.RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- 
+		
+		<dependency>
+				<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>2.2</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
 			<groupId>net.sf.json-lib</groupId>
 			<artifactId>json-lib</artifactId>
 			<version>2.3</version>
@@ -55,12 +64,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>3.2.5.RELEASE</version>
-			<scope>test</scope>
-		</dependency>
+		
+		 -->
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
