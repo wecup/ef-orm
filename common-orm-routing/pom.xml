@@ -93,12 +93,6 @@
 			<version>0.0.2</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
-			<version>10.10.1.1</version>
-			<scope>provided</scope>
-		</dependency>
 		<!-- 各种连接池的识别 常用的三种第三方连接池 -->
 		<dependency>
 			<groupId>com.cloudhopper.proxool</groupId>
