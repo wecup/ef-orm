@@ -8,7 +8,7 @@
 		<groupId>org.easyframe</groupId>
 		<version>1.9.5-SNAPSHOT</version>
 	</parent>
-	<artifactId>common-orm-routing</artifactId>
+	<artifactId>ef-orm-spring</artifactId>
 	<name>jef-orm routing and XA with Springframework</name>
 
 	<dependencies>
