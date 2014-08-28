@@ -16,19 +16,22 @@
 			<groupId>org.easyframe</groupId>
 			<artifactId>common-core</artifactId>
 			<version>1.9.5-SNAPSHOT</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-core-1.9.5-SNAPSHOT.jar</systemPath> -->
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/common-core-1.9.5-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.easyframe</groupId>
 			<artifactId>common-orm</artifactId>
 			<version>1.9.5-SNAPSHOT</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-1.9.5-SNAPSHOT.jar</systemPath> -->
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/common-orm-1.9.5-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.easyframe</groupId>
 			<artifactId>ef-orm-spring</artifactId>
 			<version>1.9.5-SNAPSHOT</version>
-			<!-- <scope>system</scope> <systemPath>${project.basedir}/lib/common-orm-routing-1.9.5-SNAPSHOT.jar</systemPath> -->
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/ef-orm-spring-1.9.5-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.google.guava</groupId>
@@ -99,11 +102,21 @@
 	<description>EF-ORM中文教程</description>
 
 	<build>
-
 		<plugins>
-			<!-- <plugin> <groupId>jef</groupId> <artifactId>jef-maven-plugin</artifactId> 
-				<version>1.9.5-SNAPSHOT</version> <executions> <execution> <goals> <goal>enhance</goal> 
-				</goals> </execution> </executions> </plugin> -->
+			<!-- 
+			<plugin>
+				<groupId>jef</groupId>
+				<artifactId>jef-maven-plugin</artifactId>
+				<version>1.9.5-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>enhance</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			 -->
 		</plugins>
 		<pluginManagement>
 			<plugins>
