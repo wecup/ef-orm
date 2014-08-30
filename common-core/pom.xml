@@ -29,14 +29,11 @@
 			<version>2.9.1</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- 其实是不用guava的，目前为了做对比测试先引入 -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>14.0.1</version>
-			<scope>provided</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>

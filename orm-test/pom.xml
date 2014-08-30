@@ -20,18 +20,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.easyframe</groupId>
-			<artifactId>common-orm-routing</artifactId>
+			<artifactId>common-orm</artifactId>
 			<version>${project.version}</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>common-net</artifactId>
-					<groupId>jef</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>cxf-plus</artifactId>
-					<groupId>jef</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
