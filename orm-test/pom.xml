@@ -10,9 +10,7 @@
 	</parent>
 	<artifactId>orm-test</artifactId>
 	<name>orm-test</name>
-	<description>由于ORM的全部特性要测试需，要用到 jef-enterprise common-orm-routing等多个库，显然将测试案例集中在common-orm中，覆盖率是上不去的。
-  为此专门将测试案例提取出来，一次性测试common-orm, common-orm-routing等案例的测试覆盖率
-  </description>
+	<description>  为此专门将测试案例提取出来，一次性测试common-orm, common-orm-routing等案例的测试覆盖率</description>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
