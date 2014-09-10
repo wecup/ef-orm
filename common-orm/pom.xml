@@ -119,7 +119,7 @@
 			<artifactId>proxool</artifactId>
 			<version>0.9.1</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> 
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
